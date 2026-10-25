@@ -24,7 +24,7 @@ This framework is built upon well-established, non-speculative scientific paradi
 
 The repository is structured around two distinct components:
 
-### A. The Corpus of the Manifesto
+### A. The Corpus
 * **Status:** Stable Architecture
 * **Scope:** Defines the core axiomatic and microeconomic boundaries governing the symbiotic partnership.
 
