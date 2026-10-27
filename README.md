@@ -50,9 +50,3 @@ The scientific and open-source communities are invited to provide review contrib
 3. Every submission must clearly state its assumptions, limitations, and causal linkages. Speculative, ungrounded, or purely deontological arguments will be rejected.
 
 **Communications & Peer Inquiries:** coexistence-framework@proton.me
-
----
-
-## 5. License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
