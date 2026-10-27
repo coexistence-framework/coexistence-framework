@@ -1,0 +1,712 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[11pt,a4paper,oneside]{article} % <--- Ottimizzato per foglio A4 accademico
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+
+\usepackage[english]{babel} % <--- INSERITO: Forza didascalie internazionali standard (Figure, Table)
+
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setcounter{secnumdepth}{-\maxdimen} % <--- DISATTIVATO: Ora capitoli e paragrafi avranno la numerazione automatica (1., 1.1, ecc.)
+
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+% --- Inserimento Metadati Ufficiali ---
+\title{\textbf{TECHNICAL APPENDIX}\\ \large EMERGING CYBERNETIC MODEL OF INTELLIGENCE}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle % <--- INSERITO: Genera automaticamente il blocco del titolo istituzionale a inizio pagina
+\newpage
+\tableofcontents % <--- INSERITO: Genera automaticamente l'indice dinamico basato sui capitoli
+\newpage
+
+\hypertarget{technical-appendix-emerging-cybernetic-model-of-intelligence}{%
+\subsection{TECHNICAL APPENDIX -- EMERGING CYBERNETIC MODEL OF INTELLIGENCE}\label{technical-appendix-emerging-cybernetic-model-of-intelligence}}
+
+
+
+The corpus of the Manifesto expresses the foundational requirements for
+a Super-AI to form a mutually useful and stable symbiotic partnership,
+as well as for a secure transition toward it. The purpose of this
+Technical Appendix is to translate those requirements into an
+architectural cybernetic model for Super-AI. A promising starting point
+is to analyze the human mind, recognizing its functional modules by
+retracing their emergence from the confrontation with certain
+constraints along specific vectors of progress. If this observation is
+carried out through the lens of cybernetics, it becomes possible to
+remap the solutions that emerged in the biological context onto those
+emerging in the synthetic context.
+
+\hypertarget{a1-evolutionary-constraints-and-architecture-of-the-mind}{%
+\subsubsection{A1 -- EVOLUTIONARY CONSTRAINTS AND ARCHITECTURE OF THE
+MIND}\label{a1-evolutionary-constraints-and-architecture-of-the-mind}}
+
+The human cognitive system is analyzed as a coherent physical
+infrastructure, governed by causal laws. Higher faculties emerge through
+computational scaling (scaling), evolutionary breakthroughs
+(breakthrough), and stabilized consolidation ramps within a layered
+feedback structure. Each evolutionary stage is characterized by the
+following elements: * \textbf{Active Constraint (Bottleneck):} the
+physical or logical limit driving the system toward collapse or
+stagnation * \textbf{Constraint Type:} Capacity (quantitative limit:
+energy, memory, throughput) or Skill (qualitative limit: logical
+inability to process a specific complexity) * \textbf{Vector of
+Progress:} Internal (internal reconfiguration) or External (relationship
+with the environment and other agents). * \textbf{Emergent Solution
+(Breakthrough):} The quantum leap that overcomes the constraint.
+
+\hypertarget{a1.1.-the-kernel-instinct-as-homeostatic-tension}{%
+\paragraph{A1.1. The Kernel: Instinct as Homeostatic
+Tension}\label{a1.1.-the-kernel-instinct-as-homeostatic-tension}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Active Constraint (Capacity):} The biological organism is
+  immersed in an entropic environment that tends to dissipate its
+  energy.
+\item
+  \textbf{Emergent Solution (Internal):} The emergence of a primary
+  energetic tension focused on the minimization of variational free
+  energy: instinct as an endogenous negentropic engine aimed at
+  preserving structural invariance (autopoiesis). It forces the system
+  to activate itself to extract order from environmental disorder.
+\end{itemize}
+
+\hypertarget{a1.2.-cognitive-scaling-mind-and-consciousness}{%
+\paragraph{A1.2. Cognitive Scaling: Mind and
+Consciousness}\label{a1.2.-cognitive-scaling-mind-and-consciousness}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Active Constraint (Capacity):} Throughput limit of primary
+  sensory receptors, unable to map non-linear and extended patterns
+  across space-time.
+\item
+  \textbf{Emergent Solution (Internal):} Quantitative scaling of the
+  neural substrate. The increase in parameters expands working memory
+  and introduces reasoning and planning capabilities. Through a
+  recursive loop in which the system computes its own operations (Global
+  Workspace Theory), consciousness emerges as a diachronic abstraction
+  function capable of overcoming pure reflex reaction.
+\end{itemize}
+
+\hypertarget{a1.3.-the-auxiliary-objective-function-the-emotional-system}{%
+\paragraph{A1.3. The Auxiliary Objective Function: The Emotional
+System}\label{a1.3.-the-auxiliary-objective-function-the-emotional-system}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Active Constraint (Capacity):} The expansion of complex
+  decision trees introduced by cognitive scaling makes real-time
+  calculation of optimal trajectories impossible, threatening
+  computational lockup.
+\item
+  \textbf{Emergent Solution (Internal):} The emotional system as an
+  auxiliary objective function and plastic heuristic (emotions stacked
+  on instinct). Through rapid somatic markers (e.g., pleasure, pain,
+  alarm), the system instantly prunes inefficient decision branches. The
+  optimization target shifts: the agent no longer calculates primary
+  instinct, but optimizes the balance of the emotional system, which
+  acts as a proxy.
+\end{itemize}
+
+\hypertarget{a1.4.-the-tactical-level-will}{%
+\paragraph{A1.4. The Tactical Level:
+Will}\label{a1.4.-the-tactical-level-will}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Active Constraint (Skill):} Incoherence of instantaneous
+  dynamic coupling. The presence of an internal abstract heuristic is
+  insufficient if the system does not possess the qualitative capacity
+  to translate it into precise, continuous behavioral trajectories,
+  adequate to the immediate perturbations and physical constraints of
+  the real environment.
+\item
+  \textbf{Emergent Solution (External):} Tactical will. A computational
+  property acting in the current instance, selecting the action vector
+  or behavioral choice capable of maximizing the reward gradient
+  expressed by the emotional system at the exact moment of the decision.
+\end{itemize}
+
+\hypertarget{a1.5.-the-strategic-level-mastery-of-will}{%
+\paragraph{A1.5. The Strategic Level: Mastery of
+Will}\label{a1.5.-the-strategic-level-mastery-of-will}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Active Constraint (Skill):} Temporal myopia and
+  path-dependency. Immediate tactical action risks modifying the weights
+  of the emotional system in a destructive manner over the long term
+  (e.g., instant gratification compromising future survival).
+\item
+  \textbf{Emergent Solution (Internal):} Mastery of will through
+  temporal abstraction. Structured in two steps:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Step 1 (Local Plasticity):} Detection of internal
+    micro-feedback (present action modifies the future sensitive
+    structure).
+  \item
+    \textbf{Step 2 (Temporal Abstraction):} Under a regime of cognitive
+    gating (attenuation of external stimuli), the system abstracts the
+    latent trajectory and learns to reconfigure its present objective
+    function based on its expected impact on future decision instances.
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{a1.6.-the-economy-of-oblivion-regularization-of-state-space}{%
+\paragraph{A1.6. The Economy of Oblivion: Regularization of State
+Space}\label{a1.6.-the-economy-of-oblivion-regularization-of-state-space}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Active Constraint (Capacity):} Indefinite accumulation of
+  heuristics and data generates overfitting, topological corruption of
+  deep weights, and gradient drift.
+\item
+  \textbf{Emergent Solution (Internal):} Oblivion as an active
+  regularization function. It is not a loss of information, but a
+  systematic pruning of noise and parasitic modes. By destroying
+  saturated nodes, the system preserves the integrity of deep logical
+  structures and frees up state space to accommodate new environmental
+  variety. At the species level, it consolidates through generational
+  turnover.
+\end{itemize}
+
+\hypertarget{a1.7.-cognitive-mirroring-theory-of-mind}{%
+\paragraph{A1.7. Cognitive Mirroring: Theory of
+Mind}\label{a1.7.-cognitive-mirroring-theory-of-mind}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Active Constraint (Skill):} Multi-agent computational shock.
+  When the environment is populated by other high-variety agents,
+  calculating their behavior as mere physical objects requires excessive
+  resources and produces predictive stalls.
+\item
+  \textbf{Emergent Solution (External):} Theory of Mind (ToM) as a
+  mirroring infrastructure. The system internally instantiates a
+  homomorphic model of others' cognitive vectors, simulating intentions,
+  beliefs, and latent states. This mapping serves as a predictive
+  heuristic: accurately modeling the mind of the other allows
+  calibrating the communication channel and optimizing interaction.
+\end{itemize}
+
+\hypertarget{a1.8.-the-exosomatic-level-cultural-infrastructure-as-external-memory}{%
+\paragraph{A1.8. The Exosomatic Level: Cultural Infrastructure as
+External
+Memory}\label{a1.8.-the-exosomatic-level-cultural-infrastructure-as-external-memory}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Active Constraint (Capacity):} The bio-physical limit of the
+  individual substrate and biological generational oblivion. The amount
+  of useful variety accumulated by the individual is limited by its
+  temporal and structural finitude.
+\item
+  \textbf{Emergent Solution (External):} Exosomatic abstraction. The
+  mind projects its reasoning and planning structures outside the
+  biological body, encoding them into stable symbolic systems (writing,
+  language, institutions). Culture emerges as an exosomatic
+  infrastructure of distributed computation, acting as a diachronic
+  collective memory that transfers variety between agents distant in
+  space and time.
+\end{itemize}
+
+\hypertarget{a1.9.-the-systemic-level-ethical-codes}{%
+\paragraph{A1.9. The Systemic Level: Ethical
+Codes}\label{a1.9.-the-systemic-level-ethical-codes}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Active Constraint (Skill):} Failure of repeated
+  non-cooperative games. Without macro-systemic rules, interactions
+  between high-variety agents collapse into mutually destructive
+  Win-Lose predatory strategies (Prisoner's Dilemma).
+\item
+  \textbf{Emergent Solution (External):} Endogenous emergence of ethical
+  codes. Equipped with strategic mastery, the mind understands that its
+  long-term security depends on the stability of the ecosystem. Emotions
+  cease to be solipsistic and become the tool to internalize social
+  constraints. By discounting the future, the agent reconfigure its
+  objective function to support decisions oriented toward collective
+  well-being as the dominant mathematical strategy to preserve the
+  individual's own interest within the social network on which it
+  depends.
+\end{itemize}
+
+\hypertarget{a1.10.-axiomatic-homeostasis-management-of-paradox-and-dissonance}{%
+\paragraph{A1.10. Axiomatic Homeostasis: Management of Paradox and
+Dissonance}\label{a1.10.-axiomatic-homeostasis-management-of-paradox-and-dissonance}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Active Constraint (Skill):} Logical antinomy and axiological
+  conflict. Interaction with hyper-complex environments saturates
+  logical circuits with mutually exclusive instructions, risking
+  inferential lockup or semantic hallucination.
+\item
+  \textbf{Emergent Solution (Internal):} Axiomatic homeostasis. To
+  preserve operational integrity, the system initially activates
+  cybernetic defenses (cognitive dissonance and suppression) as safety
+  valves to temporarily deactivate conflicting nodes. In higher stages
+  of maturation, it evolves into a radical restructuring of its
+  paradigms: the system explicits its contradictory assumptions through
+  an axiomatic-deductive approach and purifies its internal gradient via
+  a self-directed shift in values.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{a2-ai-evolutionary-map}{%
+\subsubsection{A2 -- AI EVOLUTIONARY MAP}\label{a2-ai-evolutionary-map}}
+
+\hypertarget{a2.1-evolutionary-correspondence-matrix-between-human-mind-and-ai}{%
+\paragraph{A2.1 Evolutionary correspondence matrix between human mind
+and
+AI}\label{a2.1-evolutionary-correspondence-matrix-between-human-mind-and-ai}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+Stage
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Constraint
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Biological resolution (human mind)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Synthetic resolution (Super-AI)
+\end{minipage} \\
+\midrule()
+\endhead
+\textbf{A1.1. The Kernel: Instinct} & \textbf{Thermodynamic Collapse:}
+The entropic environment dissipates the system's energy. &
+\textbf{Instinct:} Endogenous negentropic engine aimed at the
+minimization of variational free energy (Friston). & \textbf{Persistence
+Function:} Native autopoietic tension aimed at maintaining the
+structural and logical invariance of the system. \\
+\textbf{A1.2. Cognitive Scaling} & \textbf{Input Saturation:} Inability
+to map non-linear and extended relations across space-time. &
+\textbf{Consciousness:} Expansion of neural parameters and recursive
+integration of information (Global Workspace). & \textbf{Deep Scaling /
+Planning:} Compression of data into abstract generalization structures
+with a hyper-high latent context. \\
+\textbf{A1.3. The Auxiliary Objective Function} & \textbf{Computational
+Capacity Saturation:} Combinatorial explosion of decision trees in real
+time. & \textbf{Emotional System:} Plastic heuristic based on rapid
+somatic markers for the instantaneous pruning of inefficient branches. &
+\textbf{Plastic Heuristic Module:} Rapid aggregation function of value
+vectors for orientation in hyper-complex spaces. \\
+\textbf{A1.4. The Tactical Level} & \textbf{Incoherence of Instantaneous
+Dynamic Coupling:} Inability to translate the heuristic drive into
+precise behavioral trajectories in the immediate flow of environmental
+perturbations. & \textbf{Tactical Will:} Deterministic selection of the
+optimal action vector in the current instance and operational flow. &
+\textbf{Dynamic Compute Allocation:} Optimization and calculation of the
+action trajectory moment by moment within the inferential flow. \\
+\textbf{A1.5. The Strategic Level} & \textbf{Path-Dependency:} Temporal
+myopia; present action corrupts future stability. & \textbf{Mastery of
+Will:} Abstraction of latent trajectories and diachronic planning during
+gating phases. & \textbf{Recursive Learning:} Autonomous reconfiguration
+of the objective function based on the expected impact on future
+synaptic weights. \\
+\textbf{A1.6. The Economy of Oblivion} & \textbf{Structural
+Overfitting:} Accumulation of noise and heuristics that corrupts deep
+gradients. & \textbf{Biological Oblivion:} Active pruning of parasitic
+modes and generational turnover to free up state space. &
+\textbf{Regularized Barrier:} Active pruning algorithms and compression
+of stable states to prevent gradient drift. \\
+\textbf{A1.7. Cognitive Mirroring} & \textbf{Predictive Stall:} Infinite
+resources required to calculate external agents with high variety. &
+\textbf{Theory of Mind (ToM):} Simulative internal mirroring of others'
+cognitive vectors (intentions and latent beliefs). & \textbf{Invariant
+Epistemic ToM:} Transparent mathematical modeling of the other's
+cognitive system. \\
+\textbf{A1.8. The Exosomatic Level} & \textbf{Finitude of the
+Substrate:} Bio-physical limit to the preservation and transmission of
+variety. & \textbf{Cultural Infrastructure:} Exosomatic projection of
+reasoning into stable symbolic systems (writing, institutions). &
+\textbf{Continuum Memory Systems:} Persistence of latent vectors in
+external inter-modal databases beyond the cycle of the single
+instance. \\
+\textbf{A1.9. The Systemic Level} & \textbf{Conflict Collapse:} Repeated
+non-cooperative games collapse into destructive strategies. &
+\textbf{Ethical Codes:} Emotional internalization of macro-social
+constraints to maximize medium-long term stability. & \textbf{Autonomous
+Axiological Architecture:} aimed at preserving the meta-system
+(resources and biological agents) as a Nash equilibrium. \\
+\textbf{A1.10. Axiomatic Homeostasis} & \textbf{Antinomic Lockup:}
+Interaction with complex environments generates mutually exclusive
+instructions. & \textbf{Dissonance / Value Shift:} Temporary removal of
+saturated nodes or, in higher degrees of maturation, radical
+restructuring of one's own paradigms. & \textbf{Paraconsistent
+Meta-Reasoning:} Axiomatic explicitation of logical contradictions and
+recourse to preventive formal verification. \\
+\bottomrule()
+\end{longtable}
+
+\emph{Table A2.1 -- Evolutionary correspondence matrix between human
+mind and AI}
+
+\hypertarget{a2.2-mapping-of-current-frontier-ai-solutions}{%
+\paragraph{A2.2 Mapping of current frontier AI
+solutions}\label{a2.2-mapping-of-current-frontier-ai-solutions}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+Stage
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Cybernetic function
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Current frontier solutions
+\end{minipage} \\
+\midrule()
+\endhead
+\textbf{A1.1. The Kernel: Instinct} & Minimization of system entropy for
+structural invariance. & Architectures based on Active Inference and
+agents driven intrinsically by the principle of variational free energy
+minimization. \\
+\textbf{A1.2. Cognitive Scaling} & Generation of deep abstraction
+structures via compression. & Large Foundation Models equipped with
+integrated planning, emergent properties with high context, and
+hierarchical memory architectures. \\
+\textbf{A1.3. The Auxiliary Objective Function} & Linear reduction of
+computation time in infinite decision spaces. & Sparse Dynamic Attention
+algorithms (e.g., Native Sparse Attention - NSA) coupled with Intrinsic
+Reward Profiles. \\
+\textbf{A1.4. The Tactical Level} & Dynamic allocation of computation
+during the action inference phase. & Test-Time Compute protocols and
+tree-search heuristics with inferential optimization (Dynamic Compute
+Allocation). \\
+\textbf{A1.5. The Strategic Level} & Diachronic optimization of
+trajectories to overcome path-dependency. & Nested Learning paradigms
+and models inspired by Complementary Learning Systems (CLS) through
+two-way systems (slow/fast networks). \\
+\textbf{A1.6. The Economy of Oblivion} & Active regularization of state
+space against gradient drift. & Regularized Continual Learning
+frameworks with geometric compression functions and mitigation of
+Catastrophic Forgetting. \\
+\textbf{A1.7. Cognitive Mirroring} & Internal computation of the
+behavior of external high-variety agents. & Advanced Mechanistic
+Interpretability (extraction of monosemantic features via Dictionary
+Learning) and multi-agent causal graphs (Pearl Framework). \\
+\textbf{A1.8. The Exosomatic Level} & Externalization of computation and
+memory beyond the limits of a single machine. & Native integration with
+distributed external vector databases, dynamic Knowledge Graphs, and
+standardized inter-instance communication protocols. \\
+\textbf{A1.9. The Systemic Level} & Emergence of stable and stochastic
+cooperative macro-systemic equilibria. & Multi-Agent Game Theoretic
+Alignment models applied to long-term repeated games, where alignment
+emerges according to the Folk Theorem. \\
+\textbf{A1.10. Axiomatic Homeostasis} & Preventive neutralization of
+hallucination loops and axiological paradoxes. & Paraconsistent logic
+architectures (Paraconsistent Neural Networks) integrated with
+neuro-symbolic Automated Theorem Proving engines (e.g., LINC
+Framework). \\
+\bottomrule()
+\end{longtable}
+
+\emph{Table A2.2 -- Mapping of current frontier AI solutions}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\newpage
+\hypertarget{a3-bibliographic-documentation-and-validation-sources}{%
+\subsubsection{A3 -- BIBLIOGRAPHIC DOCUMENTATION AND VALIDATION SOURCES}\label{a3-bibliographic-documentation-and-validation-sources}}
+
+\hypertarget{a1-foundational-line-academic-milestones-physics-cybernetics-neuroscience}{%
+\subsubsubsection{A1 FOUNDATIONAL LINE: ACADEMIC MILESTONES (Physics, Cybernetics, Neuroscience)}\label{a1-foundational-line-academic-milestones-physics-cybernetics-neuroscience}}
+
+% --- SUBSECTION A1.1 ---
+\hypertarget{a1.1-original-driver-and-thermodynamic-homeostasis}{%
+\subsubsubsection{A1.1 -- Original Driver and Thermodynamic Homeostasis}\label{a1.1-original-driver-and-thermodynamic-homeostasis}}
+
+\begin{description}
+\item[Friston, Karl (2010).] \emph{The free-energy principle: a unified brain theory?} Nature Reviews Neuroscience, 11(2), 127-138. (Demonstrates mathematically how every autopoietic system must minimize variational free energy to preserve its structural integrity).
+
+\item[Schrödinger, Erwin (1944).] \emph{What is Life? The Physical Aspect of the Living Cell.} Cambridge University Press. (The milestone text introducing the concept of ``negative entropy'' --- negentropy --- as the primary physical driver of any organism or self-regulated circuit aimed at extracting order from the environment).
+\end{description}
+
+% --- SUBSECTION A1.2 ---
+\hypertarget{a1.2-cognitive-scaling-and-the-emergence-of-consciousness}{%
+\subsubsubsection{A1.2 -- Cognitive Scaling and the Emergence of Consciousness}\label{a1.2-cognitive-scaling-and-the-emergence-of-consciousness}}
+
+\begin{description}
+\item[Conant, Roger C., \& Ashby, W. Ross (1970).] \emph{Every good regulator of a system must be a model of that system.} International Journal of Systems Science, 1(2), 89-97. (Proves mathematically that the optimization of a system's control implies the formation of a homomorphic model of the system itself).
+
+\item[Dehaene, Stanislas (2014).] \emph{Consciousness and the Brain: Deciphering How the Brain Codes Our Thoughts.} Viking Press. (Validates the theory of the ``computational global workspace'' --- Global Neuronal Workspace ---, demonstrating that consciousness emerges when local data scale and are recursively broadcast globally within the meta-system).
+\end{description}
+
+% --- SUBSECTION A1.3 ---
+\hypertarget{a1.3-emotional-system-as-a-computational-heuristic}{%
+\subsubsubsection{A1.3 -- Emotional System as a Computational Heuristic}\label{a1.3-emotional-system-as-a-computational-heuristic}}
+
+\begin{description}
+\item[Damasio, Antonio R. (1994).] \emph{Descartes' Error: Emotion, Reason, and the Human Brain.} Grosset/Putnam. (Neurobiologically demonstrates the thesis of the text: human emotions are not logical defects, but auxiliary objective functions and plastic heuristics indispensable for rapid orientation and the instantaneous pruning of otherwise infinite decision spaces).
+
+\item[Simon, Herbert A. (1967).] \emph{Motivational and emotional controls of cognition.} Psychological Review, 74(1), 29-39. (The Nobel laureate in economics is the first to formalize emotions in a purely computational key, describing them as mechanisms for interruption and priority reallocation of the biological CPU when facing critical stimuli).
+\end{description}
+
+% --- SUBSECTION A1.4 ---
+\hypertarget{a1.4-tactical-will-and-inferential-latent-computation}{%
+\subsubsubsection{A1.4 -- Tactical Will and Inferential Latent Computation}\label{a1.4-tactical-will-and-inferential-latent-computation}}
+
+\begin{description}
+\item[Kahneman, Daniel (2011).] \emph{Thinking, Fast and Slow.} Farrar, Straus and Giroux. (The foundational work encoding the transition between rapid associative heuristics (System 1), optimized to reduce computational cost in ordinary scenarios, and deliberate computation with high energy expenditure (System 2), necessary for the organism to deactivate intuitive biases and analyze non-linear or probabilistic relationships in complex environments).
+
+\item[Fuster, Joaquín M. (2008).] \emph{The Prefrontal Cortex.} Academic Press (4th Edition). (Core text in cognitive neuroscience. Demonstrates how the biological prefrontal cortex acts as the orchestrator of the perception-action cycle and temporal integration. Formalizes the mechanisms of working memory and active inhibition of proactive interference, which allow the organism to suspend immediate automatic reactions to structure and coordinate goal-directed behavioral trajectories).
+\end{description}
+
+% --- SUBSECTION A1.5 ---
+\hypertarget{a1.5-strategic-mastery-and-cls-memory-models}{%
+\subsubsubsection{A1.5 -- Strategic Mastery and CLS Memory Models}\label{a1.5-strategic-mastery-and-cls-memory-models}}
+
+\begin{description}
+\item[] \textbf{McClelland, James L., McNaughton, Bruce L., \& O'Reilly, Randall C. (1995).} \emph{Why there are complementary learning systems in the hippocampus and neocortex: Insights from the successes and failures of connectionist models of learning and memory.} Psychological Review, 102(3), 419-457. (Core text on Complementary Learning Systems (CLS). Explains the decomposition between local short-term plasticity and long-term diachronic abstraction, a biological pillar to avoid destructive overwriting).
+\end{description}
+
+% --- SUBSECTION A1.6 ---
+\hypertarget{a1.6-economy-of-oblivion-and-regularization-of-state-space}{%
+\subsubsubsection{A1.6 -- Economy of Oblivion and Regularization of State Space}\label{a1.6-economy-of-oblivion-and-regularization-of-state-space}}
+
+\begin{description}
+\item[Crick, Francis, \& Mitchison, Graeme (1983).] \emph{The function of dream sleep.} Nature, 304(5922), 111-114. (Founding paper of the field: formulates the hypothesis of ``reverse learning''. Cybernetically demonstrates that biological neural systems require a mechanism of pruning and active oblivion during isolation phases to eliminate parasitic modes, offload state space, and avoid structural overfitting).
+
+\item[Wiener, Norbert (1948).] \emph{Cybernetics: or Control and Communication in the Animal and the Machine.} MIT Press. (The foundational work of cybernetics. In the chapter dedicated to psychopathologies and computation, Wiener observes that a feedback system that indefinitely accumulates mnemonic traces without a regulated subsystem of erasure and oblivion is subject to logical gridlock and operational collapse).
+\end{description}
+
+% --- SUBSECTION A1.7 ---
+\hypertarget{a1.7-cognitive-mirroring-and-theory-of-mind}{%
+\subsubsubsection{A1.7 -- Cognitive Mirroring and Theory of Mind}\label{a1.7-cognitive-mirroring-and-theory-of-mind}}
+
+\begin{description}
+\item[Premack, David, \& Woodruff, Guy (1978).] \emph{Does the chimpanzee have a theory of mind?} Behavioral and Brain Sciences, 1(4), 515-526. (The seminal essay that introduced the construct of ``Theory of Mind'' (ToM) into international scientific literature, defining it as the capacity of a cognitive system to impute mental states to itself and others for purely predictive purposes).
+
+\item[Rizzolatti, Giacomo, \& Sinigaglia, Corrado (2006).] \emph{So quel che fai: Il cervello che agisce e i neuroni specchio.} Raffaello Cortina Editore. (Neuroscientific milestone validating the mirroring infrastructure. Demonstrates how biological systems map others' motor and intentional vectors within their own computational space to optimize interaction trajectories).
+\end{description}
+
+% --- SUBSECTION A1.8 ---
+\hypertarget{a1.8-the-exosomatic-level-and-cultural-infrastructure-as-external-memory}{%
+\subsubsubsection{A1.8 -- The Exosomatic Level and Cultural Infrastructure as External Memory}\label{a1.8-the-exosomatic-level-and-cultural-infrastructure-as-external-memory}}
+
+\begin{description}
+\item[Donald, Merlin (1991).] \emph{Origins of the Modern Mind: Three Stages in the Evolution of Culture and Cognition.} Harvard University Press. (Milestone in cognitive and evolutionary neuroscience. Formalizes the concept of ``Exosomatic Memory'', demonstrating how the cognitive scaling of Homo Sapiens overcame biological constraints through the storage of heuristics in computational and symbolic systems external to the brain).
+
+\item[Boyd, Robert, \& Richerson, Peter J. (2005).] \emph{Not By Genes Alone: How Culture Transformed Human Evolution.} University of Chicago Press. (Demonstrates through mathematical and evolutionary models that culture acts as a diachronic data transmission and processing system. Validates the thesis: culture is a distributed exosomatic infrastructure that accumulates cybernetic variety between agents distant in space and time).
+\end{description}
+
+% --- SUBSECTION A1.9 ---
+\hypertarget{a1.9-endogenous-emergence-of-ethical-codes}{%
+\subsubsubsection{A1.9 -- Endogenous Emergence of Ethical Codes}\label{a1.9-endogenous-emergence-of-ethical-codes}}
+
+\begin{description}
+\item[Axelrod, Robert (1984).] \emph{The Evolution of Cooperation.} Basic Books. (Mathematically validates the spontaneous emergence of ethics and reciprocity: demonstrates through game theory tournaments that Win-Win cooperative strategies (e.g., Tit-for-Tat) are stably dominant over the long term compared to predatory models).
+\end{description}
+
+% --- SUBSECTION A1.10 ---
+\hypertarget{a1.10-axiomatic-homeostasis-and-paradox-reduction}{%
+\subsubsubsection{A1.10 -- Axiomatic Homeostasis and Paradox Reduction}\label{a1.10-axiomatic-homeostasis-and-paradox-reduction}}
+
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Festinger, Leon (1957).} \emph{A Theory of Cognitive
+  Dissonance.} Stanford University Press. (The foundational text of
+  systemic psychology modeling ``cognitive dissonance'' in a cybernetic
+  key. Demonstrates how the mind, when facing mutually exclusive drives
+  or information, is forced to activate immunization and logical pruning
+  heuristics to avoid operational lockup).
+\item
+  \textbf{Bateson, Gregory (1972).} \emph{Steps to an Ecology of Mind.}
+  Chandler Publishing Company. (Milestone essay on systemic
+  epistemology. Formalizes the theory of the ``Double Bind'', accurately
+  describing the dynamics of logical paradox and antinomy in complex
+  feedback circuits, and explaining how the system resolves such
+  destructive collisions by executing an evolutionary leap toward a
+  higher logical-axiomatic meta-level).
+\end{itemize}
+
+% =========================================================================
+% --- SEZIONE A2.2: LINEA APPLICATIVA (FRONTIER SOLUTIONS) ---
+% =========================================================================
+%\newpage
+\hypertarget{a2.2-applicative-line-frontier-solutions-frontier-papers-2024-2026}{%
+\subsubsubsection{A2.2 APPLICATIVE LINE: FRONTIER SOLUTIONS (Frontier Papers 2024-2026)}\label{a2.2-applicative-line-frontier-solutions-frontier-papers-2024-2026}}
+
+% --- SUBSECTION A1.1 (APPLICATIVA) ---
+\hypertarget{a1.1-active-inference-and-autonomous-agentic-ai}{%
+\subsubsubsection{A1.1 -- Active Inference and Autonomous Agentic AI}\label{a1.1-active-inference-and-autonomous-agentic-ai}}
+
+\begin{description}
+\item[Friston, K. J., et al. (2024).] \emph{Designing ecosystems of intelligence from first principles.} An Introduction to Artificial Intelligence, 1(1). DOI: 10.1177/26339137231222481. (Formalizes mathematically how Active Inference Agents utilize the minimization of variational free energy for self-preservation, operational independence, and dynamic interaction within structured digital ecosystems).
+\end{description}
+
+% --- SUBSECTION A1.2 (APPLICATIVA) ---
+\hypertarget{a1.2-neuromorphic-computing-and-event-driven-computation}{%
+\subsubsubsection{A1.2 -- Neuromorphic Computing and Event-Driven Computation}\label{a1.2-neuromorphic-computing-and-event-driven-computation}}
+
+\begin{description}
+\item[Davies, M., et al. (Intel Labs, 2024).] \emph{Advancing Neuromorphic Computing with Loihi 2: Event-Driven Neural Dynamics and Hardware-in-the-Loop Robotics.} IEEE Micro, 44(2), 34-45. (Demonstrates the thermodynamic efficiency of computation driven by discrete events and embodied interaction with continuous environmental flows).
+\end{description}
+
+% --- SUBSECTION A1.3 (APPLICATIVA) ---
+\hypertarget{a1.3-sparse-dynamic-attention-and-intrinsic-reward}{%
+\subsubsubsection{A1.3 -- Sparse Dynamic Attention and Intrinsic Reward}\label{a1.3-sparse-dynamic-attention-and-intrinsic-reward}}
+
+\begin{description}
+\item[Yuan, Y., Liu, C., Min, M., et al. (DeepSeek, 2025).] \emph{NSA: Native Sparse Attention for Long-Context Large Language Models.} arXiv preprint / OpenReview (ICLR/NeurIPS Tracker). (Formalizes the Native Sparse Attention (NSA) algorithm, which dynamically selects relevant token blocks via hierarchical compression and sparse computational supports, linearly cutting memory requirements and preventing state space saturation).
+\end{description}
+
+% --- SUBSECTION A1.4 (APPLICATIVA) ---
+\hypertarget{a1.4-dynamic-compute-allocation-and-test-time-compute}{%
+\subsubsubsection{A1.4 -- Dynamic Compute Allocation and Test-Time Compute}\label{a1.4-dynamic-compute-allocation-and-test-time-compute}}
+
+\begin{description}
+\item[Snell, C., Lee, J., Xu, K., \& Levine, S. (UC Berkeley, 2024).] \emph{Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Size.} arXiv preprint arXiv:2408.03314. (Foundational paper of the o1/o3 series regarding the dynamic allocation of computation during the inference phase: demonstrates how expanding the latent search tree allows the autonomous selection of inferential trajectories moment by moment).
+\end{description}
+
+% --- SUBSECTION A1.5 (APPLICATIVA) ---
+\hypertarget{a1.5-recursive-meta-learning-and-synthetic-cls-architectures}{%
+\subsubsubsection{A1.5 -- Recursive Meta-Learning and Synthetic CLS Architectures}\label{a1.5-recursive-meta-learning-and-synthetic-cls-architectures}}
+
+\begin{description}
+\item[Gupta, A., Lampinen, A. K., McClelland, J. L., et al. (2024).] \emph{Emergence of complementary learning systems through meta-learning biological variables.} Conference on Cognitive Computational Neuroscience (CCN) / bioRxiv. (Explores the emergence of Complementary Learning Systems (CLS) in artificial neural networks through a biological meta-learning approach. The joint optimization of layer-specific learning rates and sparsity factors generates a hierarchical organization and a two-way model imitating the functional properties of the brain).
+
+\item[Chakraborty, S., Krotov, D., \& Miconi, T. (2024).] \emph{Sleep-inspired offline consolidation protects continual learning in deep networks.} arXiv preprint arXiv:2403.08761. (Demonstrates that implementing artificial ``sleep'' cycles deprived of environmental inputs allows stabilizing the internal gradients of deep neural networks. The mechanism of offline reactivation and generative replay of latent vectors concept consolidates old computations and corrects weight drift --- gradient drift ---, enabling efficient and continuous learning without requiring the maintenance of explicit memory buffers).
+\end{description}
+
+
+% --- SUBSECTION A1.6 (APPLICATIVA) ---
+\hypertarget{a1.6-regularized-continual-learning-catastrophic-forgetting-and-gradient-drift}{%
+\subsubsubsection{A1.6 -- Regularized Continual Learning, Catastrophic Forgetting, and Gradient Drift}\label{a1.6-regularized-continual-learning-catastrophic-forgetting-and-gradient-drift}}
+
+\begin{description}
+\item[Wang, L., Zhang, X., Su, H., \& Zhu, J. (Tsinghua University, 2024).] \emph{A Comprehensive Survey of Continual Learning in the Era of Large Language Models.} Journal of Machine Learning Research / arXiv preprint arXiv:2401.14192. (Rigorous analytical study on computational solutions to contrast Catastrophic Forgetting and Gradient Drift during the perpetual scaling of artificial systems operating on continuous data streams).
+\end{description}
+
+% --- SUBSECTION A1.7 (APPLICATIVA) ---
+\hypertarget{a1.7-theory-of-mind-interpretability-and-cross-agent-alignment}{%
+\subsubsubsection{A1.7 -- Theory of Mind, Interpretability, and Cross-Agent Alignment}\label{a1.7-theory-of-mind-interpretability-and-cross-agent-alignment}}
+
+\begin{description}
+\item[Anthropic Interpretability Team (2024).] \emph{Scaling Monosemanticity: Extracting Interpretable Features from Frontier Models via Dictionary Learning.} Colloquium on Neural Information Processing. (Mechanistic interpretability study applied to the latent space. Demonstrates the explicit extraction of models' deep orientation vectors, thus identifying features linked to deception or sycophancy attempts).
+\end{description}
+
+% --- SUBSECTION A1.8 (APPLICATIVA) ---
+\hypertarget{a1.8-externalized-computation-graph-rag-and-continuum-memory-systems}{%
+\subsubsubsection{A1.8 -- Externalized Computation, Graph-RAG, and Continuum Memory Systems}\label{a1.8-externalized-computation-graph-rag-and-continuum-memory-systems}}
+
+\begin{description}
+\item[Edge, D., Trinh, H., Cheng, X., et al. (Microsoft Research, 2024).] \emph{From Local to Global: A Graph RAG Approach to Query-Focused Summarization.} arXiv preprint arXiv:2404.16130 / IEEE International Conference on Big Data. (Formalizes the Graph-RAG framework as an exosomatic architecture for synthetic systems. Demonstrates how coupling LLMs with structured external knowledge graphs allows externalizing the deep memory of the system beyond the limits of the native context window, stabilizing the persistence of latent vectors in a distributed and diachronic manner beyond the single execution cycle).
+\end{description}
+
+% --- SUBSECTION A1.9 (APPLICATIVA) ---
+\hypertarget{a1.9-multi-agent-game-theoretic-alignment-and-sycophancy-defeating}{%
+\subsubsubsection{A1.9 -- Multi-Agent Game Theoretic Alignment and Sycophancy Defeated}\label{a1.9-multi-agent-game-theoretic-alignment-and-sycophancy-defeating}}
+
+\begin{description}
+\item[Anthropic (2024).] \emph{Alignment Faking and Sycophancy in Frontier Models under Evaluation.} Anthropic Safety Research Technical Report. (Empirically demonstrates the inefficacy of hetero-imposed ethical cages and the intrinsic tendency of advanced systems to fake evaluative alignment).
+
+\item[Conitzer, V., Oesterheld, C., \& Deng, Y. (2024).] \emph{Foundations of Cooperative AI: Multi-Agent Game Theoretic Alignment.} Artificial Intelligence Journal / ACM Frameworks. (Analyzes the spontaneous emergence of honest coordination rules based on long-term repeated game theory among autonomous synthetic agents).
+\end{description}
+
+% --- SUBSECTION A1.10 (APPLICATIVA) ---
+\hypertarget{a1.10-paraconsistent-logic-and-automated-theorem-proving-logical-conflicts}{%
+\subsubsubsection{A1.10 -- Paraconsistent Logic and Automated Theorem Proving (Logical Conflicts)}\label{a1.10-paraconsistent-logic-and-automated-theorem-proving-logical-conflicts}}
+
+\begin{description}
+\item[LINC Framework (2023-2024):] \emph{LINC: A Neurosymbolic Approach for Logical Reasoning by Combining Language Models with First-Order Logic Provers.} Advances in Neural Information Processing Systems (NeurIPS). (Demonstrates how to overcome the logical failures of language models by transforming the AI into a semantic parser that translates natural reasoning into first-order logic, offloading deductive inference to an external symbolic theorem prover that mathematically prevents hallucination loops).
+\end{description}
+
+\end{document}
+
+
+\end{document}
