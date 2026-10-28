@@ -27,10 +27,12 @@ The repository is structured around two distinct components:
 ### A. The Corpus of the Coexistence Manifesto
 * **Status:** Stable Architecture
 * **Scope:** Defines the core axiomatic and microeconomic boundaries governing the symbiotic partnership.
+* **Formats:** [Read Online (.md)](coexistence-manifesto.md) | [Download Academic PDF](pdf/coexistence-manifesto.pdf) | [View LaTeX Source](coexistence-manifesto.tex)
 
 ### B. The Technical Appendix
 * **Status:** Evolving Framework
 * **Scope:** Maps biological evolutionary bottlenecks and their emerging solutions onto AI architectural frontiers.
+* **Formats:** [Download Technical PDF](pdf/coexistence-framework-technical-appendix.pdf) | [View LaTeX Source](coexistence-framework-technical-appendix.tex)
 
 ---
 
